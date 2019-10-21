@@ -1,12 +1,11 @@
-# Environment and Quick start
+# Writing text to screen
 
-## Tools 
+build and run 
 
-#### for Mac OS X
 ```
-brew install nasm cdrtools binutils bochs
+make && make run
 ```
 
-- `binutils`, for `i386-elf-gcc`, `i386-elf-ld`
-- `cdrtools`, for `mkisofs`
+Enter `c` to make bochs run.
+
 
