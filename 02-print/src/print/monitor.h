@@ -18,4 +18,6 @@ void monitor_clear();
 // Output a null-terminated ASCII string to the monitor.
 void monitor_write(char *c);
 
+void set_text_color(unsigned char forecolor, unsigned char backcolor);
+
 #endif // MONITOR_H
