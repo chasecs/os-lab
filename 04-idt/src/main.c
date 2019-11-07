@@ -19,7 +19,7 @@ int main()
     // Write out a sample string
     monitor_write("Hello world!");
 
-    
+    __asm__ __volatile__ ("sti");
     return 0;
 
 }
